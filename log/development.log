@@ -31,3 +31,1994 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-11 22:05:46 
 
 
 Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-11 22:05:46 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 12:47:12 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-08-13 12:47:19 +0800
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/magic/.rvm/rubies/ruby-2.0.0-p648/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/magic/.rvm/rubies/ruby-2.0.0-p648/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/magic/.rvm/rubies/ruby-2.0.0-p648/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.2ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (35.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2016-08-13 12:47:29 +0800
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/magic/.rvm/rubies/ruby-2.0.0-p648/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/magic/.rvm/rubies/ruby-2.0.0-p648/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/magic/.rvm/rubies/ruby-2.0.0-p648/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (22.0ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (33.4ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 12:47:42 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 415ms (Views: 414.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 12:47:43 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 12:47:43 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 12:47:43 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 12:47:43 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 12:47:43 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 12:47:43 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 12:47:43 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 12:52:39 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 12:52:40 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 12:52:40 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 12:52:40 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 12:52:40 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 12:52:40 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 12:52:40 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 12:52:40 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 21:21:45 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 55ms
+
+ActionView::Template::Error (undefined method `environment' for nil:NilClass
+  (in /Users/magic/study/railsproject/sample_app/app/assets/stylesheets/custom.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag "application", media: "all",
+    6:                           "data-turbolinks-track" => true %>
+    7:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    8:   <%= csrf_meta_tags %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3943967843229675551_70274875094120'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.9ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 21:54:03 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined method `environment' for nil:NilClass
+  (in /Users/magic/study/railsproject/sample_app/app/assets/stylesheets/custom.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag "application", media: "all",
+    6:                           "data-turbolinks-track" => true %>
+    7:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    8:   <%= csrf_meta_tags %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3943967843229675551_70274875094120'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.4ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 21:54:17 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (undefined method `environment' for nil:NilClass
+  (in /Users/magic/study/railsproject/sample_app/app/assets/stylesheets/custom.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag "application", media: "all",
+    6:                           "data-turbolinks-track" => true %>
+    7:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    8:   <%= csrf_meta_tags %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3943967843229675551_70274875094120'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 21:55:06 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined method `environment' for nil:NilClass
+  (in /Users/magic/study/railsproject/sample_app/app/assets/stylesheets/custom.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag "application", media: "all",
+    6:                           "data-turbolinks-track" => true %>
+    7:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    8:   <%= csrf_meta_tags %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4269199866661781017_70265907516280'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (32.9ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (44.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 21:58:27 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `environment' for nil:NilClass
+  (in /Users/magic/study/railsproject/sample_app/app/assets/stylesheets/custom.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag "application", media: "all",
+    6:                           "data-turbolinks-track" => true %>
+    7:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    8:   <%= csrf_meta_tags %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4269199866661781017_70265907516280'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 21:58:28 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `environment' for nil:NilClass
+  (in /Users/magic/study/railsproject/sample_app/app/assets/stylesheets/custom.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag "application", media: "all",
+    6:                           "data-turbolinks-track" => true %>
+    7:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    8:   <%= csrf_meta_tags %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4269199866661781017_70265907516280'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:00:05 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `environment' for nil:NilClass
+  (in /Users/magic/study/railsproject/sample_app/app/assets/stylesheets/custom.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag "application", media: "all",
+    6:                           "data-turbolinks-track" => true %>
+    7:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    8:   <%= csrf_meta_tags %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4269199866661781017_70265907516280'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:00:34 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `environment' for nil:NilClass
+  (in /Users/magic/study/railsproject/sample_app/app/assets/stylesheets/custom.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title(yield(:title)) %></title>
+    5:   <%= stylesheet_link_tag "application", media: "all",
+    6:                           "data-turbolinks-track" => true %>
+    7:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    8:   <%= csrf_meta_tags %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4269199866661781017_70265931138720'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.2ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:03:51 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Warning. Error encountered while saving cache c9ed14e86a0c8d7963c40974084ccb62491acb1e/bootstrap.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/bootstrap.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_variables.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_mixins.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_reset.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_scaffolding.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_grid.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_layouts.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_type.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_code.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_forms.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_tables.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_sprites.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_dropdowns.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_wells.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_component-animations.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_close.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_buttons.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_button-groups.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_alerts.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_navs.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_navbar.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_pagination.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_pager.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_modals.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_tooltip.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_popovers.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_thumbnails.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_media.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_labels-badges.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_progress-bars.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_accordion.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_carousel.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_hero-unit.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_utilities.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Completed 500 Internal Server Error in 1860ms
+
+ActionView::Template::Error (Missing partial layouts/shim with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/magic/study/railsproject/sample_app/app/views"
+):
+     6:                           "data-turbolinks-track" => true %>
+     7:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+     8:   <%= csrf_meta_tags %>
+     9:   <%= render 'layouts/shim' %>
+    10: </head>
+    11: <body>
+    12: <%= render 'layouts/header' %>
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1692860610887466884_70092745746980'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:04:03 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:04:04 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:04:04 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:04:04 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:04:04 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:04:04 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:04:04 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:04:04 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:04:04 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:05:45 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Warning. Error encountered while saving cache be2f4fe164846b156f16d9da2be020c8931acf58/custom.css.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache c9ed14e86a0c8d7963c40974084ccb62491acb1e/bootstrap.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/bootstrap.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_variables.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_mixins.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_reset.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_scaffolding.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_grid.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_layouts.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_type.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_code.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_forms.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_tables.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_sprites.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_dropdowns.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_wells.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_component-animations.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_close.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_buttons.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_button-groups.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_alerts.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_navs.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_navbar.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_pagination.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_pager.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_modals.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_tooltip.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_popovers.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_thumbnails.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_media.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_labels-badges.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_progress-bars.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_accordion.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_carousel.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_hero-unit.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_utilities.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1213ms (Views: 1212.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:05:46 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:05:46 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:05:46 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:05:46 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:05:46 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:05:46 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:05:46 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:05:46 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:05:58 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:05:58 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:05:58 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:05:58 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:05:58 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:05:58 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:05:58 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:05:58 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:05:58 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:05:58 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:06:01 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:06:01 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:06:01 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:06:01 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:06:01 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:01 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:01 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:01 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:01 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:01 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:06:02 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:06:02 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:06:02 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:06:02 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:06:02 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:02 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:02 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:02 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:02 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:02 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:06:03 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:06:03 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:06:03 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:06:03 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:06:03 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:03 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:03 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:03 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:03 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:03 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:06:43 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:06:43 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:06:43 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:43 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:43 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:43 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:06:43 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:43 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:06:43 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:07:37 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:07:37 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:07:37 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:07:37 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:37 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:37 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:37 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:38 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:07:39 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:07:40 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:07:40 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:40 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:07:40 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:07:40 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:40 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:40 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:40 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:40 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:07:41 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:07:41 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:07:41 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:07:41 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:07:41 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:41 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:41 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:41 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:41 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:07:41 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:08:23 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Warning. Error encountered while saving cache be2f4fe164846b156f16d9da2be020c8931acf58/custom.css.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache c9ed14e86a0c8d7963c40974084ccb62491acb1e/bootstrap.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/bootstrap.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_variables.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_mixins.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_reset.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_scaffolding.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_grid.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_layouts.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_type.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_code.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_forms.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_tables.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_sprites.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_dropdowns.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_wells.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_component-animations.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_close.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_buttons.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_button-groups.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_alerts.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_navs.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_navbar.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_pagination.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_pager.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_modals.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_tooltip.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_popovers.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_thumbnails.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_media.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_labels-badges.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_progress-bars.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_accordion.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_carousel.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_hero-unit.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_utilities.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1236ms (Views: 1235.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:25 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:25 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:08:25 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:08:25 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:25 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:08:25 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:25 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:25 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:08:28 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:08:28 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:08:28 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:08:28 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:08:28 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:28 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:28 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:28 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:28 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:28 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:08:29 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:08:29 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:08:29 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:08:29 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:08:29 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:29 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:29 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:29 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:08:42 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:08:42 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:08:42 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:08:42 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:42 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:42 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:42 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:42 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:08:42 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:13:26 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Warning. Error encountered while saving cache be2f4fe164846b156f16d9da2be020c8931acf58/custom.css.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache c9ed14e86a0c8d7963c40974084ccb62491acb1e/bootstrap.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/bootstrap.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_variables.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_mixins.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_reset.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_scaffolding.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_grid.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_layouts.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_type.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_code.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_forms.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_tables.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_sprites.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_dropdowns.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_wells.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_component-animations.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_close.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_buttons.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_button-groups.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_alerts.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_navs.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_navbar.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_pagination.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_pager.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_modals.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_tooltip.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_popovers.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_thumbnails.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_media.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_labels-badges.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_progress-bars.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_accordion.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_carousel.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_hero-unit.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+Warning. Error encountered while saving cache 12a34510fb454e49b3f7b88e3affc460e43e77f4/_utilities.scssc: can't dump anonymous class #<Class:0x007f7f79b44768>
+
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 1267ms (Views: 1267.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:13:28 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:13:28 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:13:28 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:13:28 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:13:28 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:13:28 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:13:28 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:13:28 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:13:30 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:13:31 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:13:31 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:13:31 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:13:31 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:13:31 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:13:31 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:13:31 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:13:31 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:13:31 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:14:32 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:14:32 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:14:32 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:14:32 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:14:32 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:14:32 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:14:32 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:14:32 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:14:32 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-13 22:14:33 +0800
+
+ActionController::RoutingError (No route matches [GET] "/about"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/magic/.rvm/rubies/ruby-2.0.0-p648/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/magic/.rvm/rubies/ruby-2.0.0-p648/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/magic/.rvm/rubies/ruby-2.0.0-p648/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.2ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (27.5ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-13 22:14:33 +0800
+
+ActionController::RoutingError (No route matches [GET] "/about"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/magic/.rvm/rubies/ruby-2.0.0-p648/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/magic/.rvm/rubies/ruby-2.0.0-p648/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/magic/.rvm/rubies/ruby-2.0.0-p648/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (10.9ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:18:18 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:18:18 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:18:18 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:18:18 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:18:18 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:18:18 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:18:18 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:18:18 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:18:18 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:18:20 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:18:20 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:18:20 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:18:20 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:18:20 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:18:20 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:18:20 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:18:20 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:18:20 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:21:36 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (33.3ms)
+Completed 500 Internal Server Error in 40ms
+
+ActionView::Template::Error (undefined local variable or method `about_path' for #<#<Class:0x007f7f79dd2a98>:0x007f7f7d5a38a0>):
+     5:   </small>
+     6:   <nav>
+     7:     <ul>
+     8:       <li><%= link_to "About", about_path %></li>
+     9:       <li><%= link_to "Contact", '#' %></li>
+    10:       <li><a href="http://news.railstutorial.org/">News</a></li>
+    11:     </ul>
+  app/views/layouts/_footer.html.erb:8:in `_app_views_layouts__footer_html_erb___996341908601087720_70092770417800'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__1692860610887466884_70092769821600'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.1ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:43:14 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 102ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:43:14 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:43:14 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:43:14 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:14 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:14 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:14 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:14 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:14 +0800
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2016-08-13 22:43:16 +0800
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2016-08-13 22:43:16 +0800
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:43:17 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:43:17 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:43:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:17 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:17 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:17 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:43:19 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2016-08-13 22:43:19 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:43:19 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:43:19 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:19 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:43:19 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:19 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:19 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:19 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:43:19 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-13 22:51:21 +0800
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (11.7ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined local variable or method `static_pages_about_path' for #<#<Class:0x007f93937c6248>:0x007f93937c5258>):
+     5:   </small>
+     6:   <nav>
+     7:     <ul>
+     8:       <li><%= link_to "About", static_pages_about_path %></li>
+     9:       <li><%= link_to "Contact", '#' %></li>
+    10:       <li><a href="http://news.railstutorial.org/">News</a></li>
+    11:     </ul>
+  app/views/layouts/_footer.html.erb:8:in `_app_views_layouts__footer_html_erb__160014543986245122_70135898275980'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___1024442191894953986_70135897885800'
+
+
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/magic/.rvm/gems/ruby-2.0.0-p648/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-13 22:53:00 +0800
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 76ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:53:00 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:53:00 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:53:00 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:53:00 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:53:00 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:53:00 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:53:00 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:53:00 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 22:53:59 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:54:00 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:54:00 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:00 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:00 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:00 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:54:00 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:00 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:00 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-13 22:54:05 +0800
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-08-13 22:54:05 +0800
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:54:05 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:54:05 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:54:05 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:05 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:05 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:05 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:05 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:05 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 22:54:06 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 22:54:07 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:54:07 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:54:07 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:54:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:07 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:07 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:54:07 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 22:55:34 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:55:34 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:55:34 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:55:34 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:55:34 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:55:34 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:55:34 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:55:34 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:55:34 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-08-13 22:55:35 +0800
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-08-13 22:55:35 +0800
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:55:35 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:55:35 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:55:35 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:55:35 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:55:35 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:55:35 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:55:35 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:55:35 +0800
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-08-13 22:56:06 +0800
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:06 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:06 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:06 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:06 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:06 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:06 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:06 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 22:56:09 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 22:56:09 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:09 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:09 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:09 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:09 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:09 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:09 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:09 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:09 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 22:56:11 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:11 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:11 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:11 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:11 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:11 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:11 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:11 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:11 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2016-08-13 22:56:12 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:12 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:12 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:12 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:12 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:12 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:12 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:12 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:12 +0800
+
+
+Started GET "/help" for 127.0.0.1 at 2016-08-13 22:56:13 +0800
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:13 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:13 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-13 22:56:13 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:13 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:13 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:13 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:13 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-13 22:56:13 +0800
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-08-14 20:16:51 +0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.7ms)
+Warning. Error encountered while saving cache be2f4fe164846b156f16d9da2be020c8931acf58/users.css.scssc: can't dump anonymous class #<Class:0x007fc17182cbe0>
+
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 192ms (Views: 190.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2016-08-14 20:16:52 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-08-14 20:16:52 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2016-08-14 20:16:52 +0800
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2016-08-14 20:16:52 +0800
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2016-08-14 20:16:52 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-08-14 20:16:52 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-08-14 20:16:52 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-08-14 20:16:52 +0800
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2016-08-14 20:16:52 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-08-14 20:16:52 +0800
